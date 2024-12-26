@@ -4,41 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="STKLM maqueta/ Luján Valdés">
     <meta name="keywords" content="digital design, digital print, design, aesthetic">
     <meta name="Actividad 1" content="Maquetación de web en SUITCSS/ STKLM maqueta">
     <title>Metodología SUIT CSS</title>
-
-
 </head>
 
-<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+
+<link rel="stylesheet" href="css/styles.css">
+
+<body class="Body">
 
     <!--Maquetación básica-->
-    <header class="header">
-        <h1 class="h1"><a href="#" class="a">Logo</a></h1>
-        <nav class="nav">
-            <ul class="ul">
-                <li class="li"><a href="#" class="a">Item 1</a>></li>
-                <li class="li"><a href="#" class="a">Item 1</a>></li>
-                <li class="li"><a href="#" class="a">Item 1</a>></li>
-                <li class="li"><a href="#" class="a">Item 1</a>></li>
-                <li class="li"><a href="#" class="a">Item 1</a>></li>
+    <header class="Header">
+        <div class="Header-logo">
+            <img class="Header-img" src="assets/logo.png" alt="Logo STKLM">
+        </div>
+        <nav class="Header-nav">
+            <ul class="Nav-Ul">
+                <li><a class="Nav-UlLink isActive" href="#">All Prints</a></li>
+                <li><a class="Nav-UlLink" href="#">About Us</a></li>
+                <li><a class="Nav-UlLink " href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <main class="Main">
+        <p class="P-main">Check out some of the stuff we have worked on with and work spanning across several different
+            mediums including digital prints, company branding & more</p>
 
-    <main class="main">
-        <section class="section">
-            
+        <div class="Grid">
+            <img src="assets/print-port-1.jpg" alt="Imagen 1" class="Grid-img">
+            <img src="assets/print-port-2.jpg" alt="Imagen 2" class="Grid-img">
+            <img src="assets/print-port-3.jpg" alt="Imagen 3" class="Grid-img">
+            <img src="assets/print-port-4.jpg" alt="Imagen 4" class="Grid-img">
+            <img src="assets/print-port-5-1.jpg" alt="Imagen 5" class="Grid-img">
+            <img src="assets/print-port-6.jpg" alt="Imagen 6" class="Grid-img">
+            <img src="assets/print-port-13.jpg" alt="Imagen 7" class="Grid-img">
+            <img src="assets/print-port-8.jpg" alt="Imagen 8" class="Grid-img">
+            <img src="assets/print-port-9.jpg" alt="Imagen 9" class="Grid-img">
+            <img src="assets/print-port-10.jpg" alt="Imagen 10" class="Grid-img">
+            <img src="assets/print-port-11.jpg" alt="Imagen 11" class="Grid-img">
+            <img src="assets/print-port-12.jpg" alt="Imagen 12" class="Grid-img">
+        </div>
 
-        </section>
-
-
-
-
+        <div class="Button">
+            <p class="P-button">Show more</p>
+            <span class="material-symbols-outlined">
+                arrow_outward
+            </span>
+        </div>
     </main>
+    <footer class="Footer">
+        <div class="Footer-derechosReservados">
+            <p class="Footer-p">All rights reserved © Qode Interactive 2020</p>
+        </div>
 
+        <nav class="Footer-nav">
+            <ul class="Nav-Ul">
+                <li><a class="Nav-UlLink" href="#">Instagram</a></li>
+                <li><a class="Nav-UlLink" href="#">Facebook</a></li>
+                <li><a class="Nav-UlLink" href="#">Behance</a></li>
+                <li><a class="Nav-UlLink" href="#">Pinterest</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
-
 </html>
